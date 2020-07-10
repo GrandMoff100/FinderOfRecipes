@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Coiny;
+  src: url(/static/fonts/coiny-regular.ttf);
+}
+
+@font-face {
+    font-family: Capsuula;
+    src: url(/static/fonts/Capsuula.ttf);
+}
+
+@font-face {
+    font-family: Days;
+    src: url(/static/fonts/Days.otf);
+}
+
+body {
+    background: url("https://ak.picdn.net/shutterstock/videos/11430092/thumb/5.jpg") fixed center;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: Coiny, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+    border-radius: 20px;
+    background: beige;
+    width: 600px;
+    margin: auto;
+
+}
+
+
+
+a {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+a:link {
+    color: red;
+    text-align: center;
+    margin: auto;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-align: center;
+    margin: auto;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-align: center;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-align: center;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+a.back {
+    text-align: center;
+    padding: 0 48%;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    margin: auto;
+    position: relative;
+    left: 45%;
+    width: 50px;
+    background: beige;
+    border-radius: 20px;
+    color: #4CAF50;
+    font-size: 18px;
+    height: 20px;
+}
+
+a.back:link {
+    color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* visited link */
+a.back:visited {
+    color: blueviolet;
+    text-align: center;
+    margin: auto;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* mouse over link */
+a.back:hover {
+    color: hotpink;
+    text-align: center;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* selected link */
+a.back:active {
+    color: blue;
+    text-align: center;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
+
+div.recipe-tile {
+    background: #ffec96;
+    text-align: center;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    text-indent: 5px;
+}

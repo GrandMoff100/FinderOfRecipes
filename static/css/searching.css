@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Coiny;
+  src: url(/static/fonts/coiny-regular.ttf);
+}
+
+@font-face {
+    font-family: Capsuula;
+    src: url(/static/fonts/Capsuula.ttf);
+}
+
+@font-face {
+    font-family: Days;
+    src: url(/static/fonts/Days.otf);
+}
+
+body {
+    background: #ffec96;
+}
+
+div {
+    background: #ffec96;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1.title {
+    padding: 10px;
+    width: 800px;
+    font-size: 30px;
+    border-radius: 30px;
+    background: lawngreen;
+    color: forestgreen;
+    margin: auto;
+}
+
+div.text {
+    padding: 8px;
+    font-size: 16px;
+    font-family: Days, 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+
+img.loading {
+    border-radius: 100px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    bottom: -50px;
+
+}

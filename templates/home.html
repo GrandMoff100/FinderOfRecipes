@@ -1,0 +1,26 @@
+<title>Recipe Finder AI</title>
+<link rel="stylesheet" href="/static/css/style.css">
+<link rel="icon" href="/static/img/tomato.png">
+<body>
+<div class="title"><h1>Find your recipe's today!</h1></div>
+<div class="text">Use this website to find delicious and healthy recipes with ingredients you already have.</div>
+<form>
+    <div class="search">
+        <label for="ingIncl">Ingredients you have or want to make something with.</label>
+        <input type="text" id="ingIncl" name="incl" placeholder="Ingredients..." required>
+        <br>
+        <label for="ingExcl">Ingredients to not include in the search.</label>
+        <input type="text" id="ingExcl" name="excl" placeholder="Ingredients...">
+        <br>
+        <label style="text-align: left" for="sort">Sort by </label>
+        <select name="sort" id="sort" class="custom-select">
+            <option value="re">Relevance</option>
+            <option value="p">Popularity</option>
+            <option value="ra">Ratings</option>
+        </select>
+        <br>
+        <input type="submit" value="Search" formaction="/loading">
+    </div>
+
+</form>
+</body>

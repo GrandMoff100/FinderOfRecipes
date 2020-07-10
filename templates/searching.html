@@ -1,0 +1,20 @@
+<title>Searching...</title>
+<link rel="icon" href="/static/img/tomato.png">
+<link rel="stylesheet" href="/static/css/searching.css">
+<body>
+<div class="text">
+    <h1 class="title">Please wait while we fetch your yummy recipes...</h1>
+    <img class="loading" src="https://i.pinimg.com/originals/72/9b/17/729b174fb8d50fce2c76e2dcc4aa14e4.gif" style="vertical-align: center; alignment: center" alt="Searching for your recipe's.">
+</div>
+<script>
+   function myFunction() {
+       let destination = "http://{{ host }}/recipes?incl={{ include }}&excl={{ exclude }}&sort={{ sort }}"
+
+       console.log(destination)
+       location.replace(destination)
+
+   }
+
+   setTimeout(function(){ myFunction(); }, 1000);
+</script>
+</body>
